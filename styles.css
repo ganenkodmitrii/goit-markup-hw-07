@@ -19,7 +19,7 @@ font-family: Raleway;sans-serif
 font-weight: 700;
 */
 
-:root {
+/* :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
@@ -28,14 +28,14 @@ font-weight: 700;
   --secondary-grey-color: #2f303a;
 
   --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-body {
+/* body {
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
-}
+} */
 
 /* утилиты */
 .list {
@@ -79,7 +79,7 @@ body {
 }
 
 /* header */
-
+/* .page-header{} */
 .header {
   border: 1px solid #ececec;
 }
@@ -240,7 +240,6 @@ body {
 .button {
   display: inline-block;
   border: none;
-  /* border: 1px, solid, transparent; */
   padding: 10px 32px;
   min-width: 200px;
   min-height: 50px;
@@ -255,7 +254,10 @@ body {
   letter-spacing: 0.06em;
   text-decoration: none;
   cursor: pointer;
+
   transition: background-color 250ms var(--timing-function);
+
+  /* border: 1px, solid, transparent; */
 }
 
 .button:hover,

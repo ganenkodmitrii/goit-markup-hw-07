@@ -1,0 +1,36 @@
+.site-address {
+  @extend %list;
+  @include centeredFlex(flex);
+  margin-left: auto;
+
+  &__item:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.site-address__link {
+  @include centeredFlex(flex);
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  color: $text-color;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+
+  @include transition(color, $time, $timing-function);
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+
+.icon-envelope,
+.icon-smartphone {
+  margin-right: 10px;
+  fill: currentColor;
+}

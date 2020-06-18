@@ -1,0 +1,33 @@
+// hero
+
+.section-hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+}
+
+.section-hero__title {
+  width: 696px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 30px;
+  color: $primary-color;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.section-hero__button {
+  @extend %button;
+  @include transition(background-color, $time, $timing-function);
+
+  /* border: 1px, solid, transparent; */
+
+  &:hover,
+  &:focus {
+    background-color: #188ce8;
+  }
+}

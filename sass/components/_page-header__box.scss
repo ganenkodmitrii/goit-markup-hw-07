@@ -1,0 +1,4 @@
+.page-header__box {
+  @extend %container;
+  @include centeredFlex(flex);
+}
