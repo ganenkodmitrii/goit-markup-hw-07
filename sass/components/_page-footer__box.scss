@@ -1,0 +1,8 @@
+.page-footer__box {
+  @extend %container;
+  @include centeredFlex(flex);
+  align-items: baseline;
+  justify-content: space-between;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}

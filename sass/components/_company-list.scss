@@ -1,0 +1,30 @@
+.company-list {
+  @include centeredFlex(flex);
+  @extend %list;
+}
+
+.company-list__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.company-list__border {
+  @include centeredFlex(flex);
+
+  width: 170px;
+  height: 90px;
+  color: #afb1b8;
+  border: 1px solid;
+  border-radius: 4px;
+
+  // @include transition(color 250ms $timing-function);
+  transition: color 250ms $timing-function;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+
+.company-list__logo {
+  fill: currentColor;
+}

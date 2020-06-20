@@ -22,7 +22,8 @@
 
 .section-hero__button {
   @extend %button;
-  @include transition(background-color, $time, $timing-function);
+  // @include transition(background-color 250ms $timing-function);
+  transition: background-color 250ms $timing-function;
 
   /* border: 1px, solid, transparent; */
 

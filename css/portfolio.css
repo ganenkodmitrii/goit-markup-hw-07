@@ -13,6 +13,10 @@
   list-style: none;
 }
 
+.image {
+  display: block;
+}
+
 /*! modern-normalize v0.6.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 /*
 Document
@@ -309,15 +313,6 @@ body {
   margin-right: 85px;
   padding-top: 24px;
   padding-bottom: 25px;
-  color: #2196f3;
-  font-family: Raleway, sans-serif;
-  font-size: 26px;
-  line-height: 1.2;
-  text-decoration: none;
-}
-
-.logo-accent {
-  color: #000000;
 }
 
 .site-nav {
@@ -355,11 +350,11 @@ body {
   color: #2196f3;
 }
 
-.site-nav__current {
+.current {
   color: #2196f3;
 }
 
-.site-nav__current::after {
+.current::after {
   content: "";
   position: absolute;
   bottom: 0;

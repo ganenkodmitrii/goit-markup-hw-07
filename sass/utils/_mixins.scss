@@ -4,6 +4,12 @@
   justify-content: center;
 }
 
-@mixin transition($property, $time, $timing-function) {
-  transition: $property $time $timing-function;
-}
+// @mixin transition($property...) {
+//   transition: $property;
+// }
+// transition: $property1 250ms $timing-function,
+// $property2 250ms $timing-function;
+
+// @mixin transition2($property2, $time, $timing-function) {
+//   transition: $property2 $time $timing-function;
+// }

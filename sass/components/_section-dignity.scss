@@ -1,0 +1,11 @@
+// Достоинство и преимущество
+
+.section-dignity {
+  padding-top: 94px;
+  @extend %container;
+  // outline: 1px solid blue;
+
+  &__title {
+    @extend %visually-hidden;
+  }
+}
