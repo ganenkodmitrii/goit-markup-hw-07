@@ -1,0 +1,23 @@
+.work-box__desc {
+  padding: 20px 24px;
+}
+
+.work-box__title {
+  margin-top: 0;
+  margin-bottom: 4px;
+  color: $title-text-color;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+}
+
+.work-box__subtitle {
+  margin: 0;
+  color: $text-color;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  text-decoration: none;
+}

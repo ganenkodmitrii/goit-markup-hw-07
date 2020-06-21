@@ -1,0 +1,9 @@
+.section-work {
+  padding-top: 93px;
+  padding-bottom: 94px;
+  @extend %container;
+
+  &__title {
+    @extend %visually-hidden;
+  }
+}
